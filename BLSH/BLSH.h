@@ -19,4 +19,4 @@ public:
 
 extern BLSH_API int nBLSH;
 
-BLSH_API int fnBLSH(void);
+extern "C" BLSH_API int fnBLSH(void);
